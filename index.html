@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Sunnydale Solutions Feedback</title>
+</head>
+
+<body>
+
+<h1> Sunnydale Solutions</h1>
+<h2> Customer Feedback</h2>
+
+<div id="welcome-message"></div>
+
+<div id="error-box" style="color: red;"></div>
+
+<div id="success-message"></div>
+
+<form id="feedback-form" novalidate>
+
+    <label for="reviewer-name">Reviewer Name:</label>
+    <input type="text" id="reviewer-name">
+    <br><br>
+
+    <label for="rating">Rating:</label>
+    <select id="rating">
+        <option value="">Select a rating</option>
+        <option value="1">1 Star</option>
+        <option value="2">2 Stars</option>
+        <option value="3">3 Stars</option>
+        <option value="4">4 Stars</option>
+        <option value="5"> 5 Stars</option>
+    </select>
+    <br><br>
+
+    <label for="comments">Comments:</label>
+    <br>
+    <textarea id="comments" rows="5" cols="40"></textarea>
+    <br><br>
+
+    <button type="submit">Submit Feedback</button>
+</form>
+
+<script src="script.js"></script>
+
+</body>
+</html>
