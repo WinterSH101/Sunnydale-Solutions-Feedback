@@ -9,4 +9,6 @@ In this phase, I added validation to check the name, rating, and comments. I sto
 ## Phase 3
 In this phase, I added a success message and used localStorage to save the user's name. When the page is refreshed, the saved name is used to welcome the user back and fil the name box. localStorage is simple because the information stays within the browser. Cookies are more useful when information needs to be sent to a server.
 <br>
+## Phase 4
+In this phase, I tested the form in different ways to make sure that everything works. I tried leaving the form blank, choosing a rating below 5, and leaving the wors "wonderful" out of the comments. I also tested a correct submission and refreshed the page to make sure that the name was saved. One thing I checked was whether "wonderful" would still work with different capital letters, and it did because the code converts the comments into lowercase letters.
 
